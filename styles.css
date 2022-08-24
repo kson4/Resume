@@ -1,7 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
+    margin-top: 150px;
     margin-left: 500px;
     margin-right: 500px;
     border: 1px solid black
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -9,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 35px;
 }
 
 .contact {
@@ -25,10 +54,15 @@
 }
 
 .left-column, .right-column {
-    padding: 50px;
+    padding: 25px;
 }
 
-.about, .education {
+.left-column div,
+.right-column div {
+    margin-bottom: 25px;
+}
+
+.about, .education, .projects {
     padding-bottom: 20px;
 }
 
