@@ -1,0 +1,37 @@
+.container {
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid black
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact div {
+    padding-left: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.left-column, .right-column {
+    padding: 50px;
+}
+
+.about, .education {
+    padding-bottom: 20px;
+}
+
+p {
+    padding-left: 40px;
+}
